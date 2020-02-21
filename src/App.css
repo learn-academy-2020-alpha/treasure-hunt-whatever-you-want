@@ -1,5 +1,16 @@
-#box {
+.box {
     border: 3px solid black;
     width: 100px;
     height: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+#theBoard{
+display: flex;
+flex-wrap: wrap;
+margin: 0 auto;
+width: 320px;
+height: 320px;
 }
